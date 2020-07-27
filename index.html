@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pioneer Bank</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="login-area">
+        <h1 class="text-center"> Welcome to Pioneer Bank </h1>
+        <div class="submit-area">
+            <h4>Login</h4>
+            <input type="email" class="form-control" name="email" placeholder="Email" id=""> <br>
+            <input type="password" class="form-control" placeholder="password" name="" id=""> <br>
+            <button id="login" class="btn btn-success">Enter</button>
+        </div>
+    </div>
+     <script>
+         const loginBtn = document.getElementById('login');
+         loginBtn.addEventListener("click",function(){
+             console.log('amare clicked marce')
+         })
+     </script>
+</body>
+</html>
